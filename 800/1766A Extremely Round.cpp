@@ -14,10 +14,9 @@ int main()
             cout << n << endl;
         } else {
 
-        
         int one = n[0] - '0';
-        int res = one + 8 + 10 * (n.size() - 2);
-        cout << res << endl;
+        cout << one + 9 * (n.size() - 1) << endl;
+        
     }
 }
     return 0;
